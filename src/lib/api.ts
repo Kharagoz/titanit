@@ -17,7 +17,6 @@ export const fetchWeeklyOccupancy = async (): Promise<DailyOccupancy[]> => {
   return [
     { date: '2023-05-01', occupancy: 60 },
     { date: '2023-05-02', occupancy: 45 },
-    // ... другие дни
   ];
 };
 

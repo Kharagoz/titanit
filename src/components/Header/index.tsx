@@ -22,28 +22,13 @@ export function Header() {
             <Link href="/admin/bookings" className="text-2xl font-light text-white hover:text-[#2c9c3b] transition-colors">
               Бронирования
             </Link>
-            <Link href="/" className="text-2xl font-light text-white hover:text-[#2c9c3b] transition-colors">
+            <Link href="/admin/reports" className="text-2xl font-light text-white hover:text-[#2c9c3b] transition-colors">
               Отчёты
             </Link>
           </div>
         </div>
 
         <div className="flex items-center gap-2">
-{/*          <Link href="/login" passHref>
-            <button className="bg-gradient-to-r from-[#74C582] to-[#284122] text-white text-xl px-12 py-3 rounded-[20px] font-medium hover:opacity-90 transition-all hover:scale-105 shadow-lg shadow-[484848]/50">
-              Войти
-            </button>
-  </Link> */}
-          
-{/*          <Link href="/profile" className="flex items-center">
-            <img 
-              src="/star.svg" 
-              width={60}
-              height={60} 
-              alt="Личный кабинет"
-              className="object-contain"
-            />
-  </Link> */}
         </div>
       </div>
     </header>

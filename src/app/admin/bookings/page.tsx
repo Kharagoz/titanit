@@ -11,15 +11,13 @@ export default function BookingsPage() {
   const [bookings, setBookings] = useState<Booking[]>([]);
   const [filteredBookings, setFilteredBookings] = useState<Booking[]>([]);
   const [loading, setLoading] = useState(true);
-  
-  // Фильтры
+
   const [filters, setFilters] = useState({
     date: '',
     user: '',
     status: '' as BookingStatus | '',
   });
 
-  // Загрузка данных
   useEffect(() => {
     const fetchBookings = async () => {
       try {
@@ -36,7 +34,6 @@ export default function BookingsPage() {
     fetchBookings();
   }, []);
 
-  // Применение фильтров
   useEffect(() => {
     let result = [...bookings];
     

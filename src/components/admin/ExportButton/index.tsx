@@ -13,7 +13,6 @@ export default function OfficeMap() {
   const [seats, setSeats] = useState<Seat[]>([
     { id: '1', x: 50, y: 50, status: 'available' },
     { id: '2', x: 150, y: 50, status: 'occupied', user: 'Анна' },
-    // ... другие места
   ])
 
   const handleSeatClick = (seat: Seat) => {
